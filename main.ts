@@ -19,6 +19,7 @@ neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Black))
 neopixelStrip.show()
 basic.showIcon(IconNames.Happy)
 
+// button a
 input.onButtonPressed(Button.A, function () {
 lightAmount = input.lightLevel()
 neopixelStrip.clear()
@@ -39,4 +40,6 @@ if (lightAmount > 208) {
     neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Purple))
 }
 neopixelStrip.show()
+basic.showString(" light level : " + lightAmount)
+basic.showIcon(IconNames.Happy)
 })
