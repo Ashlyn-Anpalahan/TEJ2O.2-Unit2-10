@@ -25,16 +25,16 @@ if (lightAmount <= 51) {
     neopixelStrip.clear()
 }
 if (lightAmount > 52) {
-    neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Red))
+    neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Violet))
 }
 if (lightAmount > 104) {
-    neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Red))
+    neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.White))
 }
 if (lightAmount > 156) {
-    neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Red))
+    neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Indigo))
 }
 if (lightAmount > 208) {
-    neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Red))
+    neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Purple))
 }
 
 neopixelStrip.show()
