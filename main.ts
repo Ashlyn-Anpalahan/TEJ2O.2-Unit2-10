@@ -2,7 +2,7 @@
  *
  * Created by: Ashlyn
  * Created on: Mar 2026
- * This program will show the birghtness level of light 
+ * This program will show the brightness level of light 
 */
 
 // variables
@@ -40,6 +40,6 @@ if (lightAmount > 208) {
     neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Purple))
 }
 neopixelStrip.show()
-basic.showString(" light level : " + lightAmount)
+basic.showString(" light level is : " + lightAmount)
 basic.showIcon(IconNames.Happy)
 })
